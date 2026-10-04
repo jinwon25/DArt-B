@@ -16,7 +16,7 @@
 **SQL 스타일 가이드**
 - https://www.sqlstyle.guide/
 
-**Mozilla(Firefox)의 SQL 스타일 가이드
+**Mozilla(Firefox)의 SQL 스타일 가이드**
 - https://docs.telemetry.mozilla.org/concepts/sql_style.html
 
 ### 1) 예약어는 대문자로 작성

@@ -50,7 +50,7 @@ SELECT student_name,
 => `student` 테이블을 학생 이름(`student_name`)별로 묶음
 
 - **GROUP_CONCAT(test_score)**<br>
-=> 각 학생 그룹에서 `test_score` 값을 **콤마(“,”)**로 이어 붙인 하나의 문자열로 반환함<br>
+=> 각 학생 그룹에서 `test_score` 값을 **콤마(“,”)로** 이어 붙인 하나의 문자열로 반환함<br>
 => 예를 들어, Alice 학생의 점수가 `80, 90, 85` 세 개라면, 결과 컬럼엔 `"80,90,85"`로 나타남
 
 - **NULL 무시**
