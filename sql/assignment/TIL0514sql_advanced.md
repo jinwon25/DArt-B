@@ -95,7 +95,7 @@ SELECT REGEXP_SUBSTR('abc def ghi', '[a-z]+', 1, 3); -- 결과: 'ghi'
 | `*`     | 0회 이상 반복                                |
 | `+`     | 1회 이상 반복                                |
 | `?`     | 0 또는 1회                                   |
-| `|`     | OR (alternation)                             |
+| `\|`     | OR (alternation)                             |
 | `(…)`   | 그룹화                                       |
 | `{n}`, `{m,n}` | 반복 횟수 지정                         |
 | `[abc]` | 문자 클래스 (예: `[a-dX]` / `[^a-dX]`)       |

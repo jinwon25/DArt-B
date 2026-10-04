@@ -64,7 +64,7 @@ LIMIT 3
 - 데이터의 기간: X
 - 사용할 테이블: trainer_pokemon, pokemon, trainer
 - Join KEY: trainer_pokemon.trainer_id = pokemon.id, (  ).trainer_id = trainer.id
-- 데이터 특징: 전설 여부에 따라서 COUNT를 해야 한다! => COUNTIF, SUM(CASE WHEN ~)
+- 데이터 특징: 전설 여부에 따라서 COUNT를 해야 한다! => COUNTIF, SUM(CASE WHEN \~)
 
 ```js
 WITH AS legendary_cnts AS (
